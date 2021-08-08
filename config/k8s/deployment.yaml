@@ -1,9 +1,9 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: quarkus-hello-service-app
+  name: ztsc-quarkus-hello-service-app
   labels:
-    app: quarkus-hello-service-app
+    app: ztsc-quarkus-hello-service-app
 spec:
   replicas: 1
   selector:
