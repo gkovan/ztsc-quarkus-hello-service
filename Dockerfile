@@ -22,7 +22,7 @@
 #
 ###
 #FROM registry.access.redhat.com/ubi8/ubi-minimal:8.3 
-FROM docker.io/gkovan/ztsc-base-quarkus-image:e307fa4 
+FROM docker.io/gkovan/ztsc-base-quarkus-image:368c513 
 LABEL base.image="docker.io/gkovan/ztsc-base-quarkus-image:e307fa4"
 # Configure the JAVA_OPTIONS, you can add -XshowSettings:vm to also display the heap size.
 ENV JAVA_OPTIONS="-Dquarkus.http.host=0.0.0.0 -Djava.util.logging.manager=org.jboss.logmanager.LogManager"
